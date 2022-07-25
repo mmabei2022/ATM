@@ -7,10 +7,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class Account {
 
-	private int accountNumber;
-    private int PIN;
-    private int balance;
-    private int overdraft;
+	
+	 private int accountNumber;
+     private int PIN;
+     private int balance;
+     private int overdraft;
 }
